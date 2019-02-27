@@ -1,4 +1,4 @@
-use games_hub;
+use guests;
 db.dropDatabase();
 
 db.bookings.insertMany([
