@@ -5,37 +5,26 @@ db.bookings.insertMany([
   {
     name: "Cleyra Uzcategui",
     email: "cleyra@email.com",
-    checked_in: {
-      yes: true,
-      no: false
-    }
+    checked_in: true
   },
 
   {
     name: "Paola Guerra",
     email: "paola@email.com",
-    checked_in: {
-      yes: true,
-      no: false
-    }
+    checked_in: true
+
   },
 
   {
     name: "Maria Rodriguez",
     email: "maria@email.com",
-    checked_in: {
-      yes: false,
-      no: true
-    }
+    checked_in: false
   },
 
   {
     name: "Pascaline Martin",
     email: "pascaline@email.com",
-    checked_in: {
-      yes: false,
-      no: true
-    }
+    checked_in: false
 
   }
 ]);

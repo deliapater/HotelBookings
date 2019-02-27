@@ -11,8 +11,7 @@
 		</div>
 		<div class="formWrap">
 			<label for="checked">Checked in:</label><br>
-      <input v-model="newBooking.check" type="checkbox" name="yes" value=true> Yes
-      <input v-model="newBooking.check" type="checkbox" name="no" value=false> No
+      <input v-on:click="newBooking.check" type="checkbox" name="yes" value=true > 
 		</div>
 
 		<input type="submit" value="Save" id="save"/>

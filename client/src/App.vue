@@ -40,7 +40,7 @@ methods: {
     const index = this.bookings.findIndex((booking) => {
       return booking._id === id
     });
-    this.booking.splice(index, 1);
+    this.bookings.splice(index, 1);
   }
 }
 }
