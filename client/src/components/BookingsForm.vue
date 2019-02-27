@@ -11,7 +11,7 @@
 		</div>
 		<div class="formWrap">
 			<label for="checked">Checked in:</label><br>
-      <input v-on:click="newBooking.check" type="checkbox" name="yes" value=true >
+      <input v-model="newBooking.checked_in" type="checkbox" name="yes" value=true >
 		</div>
 
 		<input type="submit" value="Save" id="save"/>
@@ -27,7 +27,7 @@ export default {
 			newBooking: {
 				name: "",
 				email: "",
-				cheked: null
+				cheked_in: null
 			}
 		}
 	},

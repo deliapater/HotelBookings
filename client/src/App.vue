@@ -29,6 +29,7 @@ export default {
 
     eventBus.$on('booking-deleted', id =>
     this.deleteBooking(id));
+
 },
 methods: {
   fetchData(){
@@ -41,7 +42,8 @@ methods: {
       return booking._id === id
     });
     this.bookings.splice(index, 1);
-  }
+  },
+
 }
 }
 </script>

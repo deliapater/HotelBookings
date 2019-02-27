@@ -7,6 +7,7 @@
       <p>Checked in: {{ booking.checked_in ? "Yes":"No" }}</p>
 
 			<button v-on:click="deleteBooking(booking._id)">Delete Booking</button>
+      <button>Update Status</button>
 		</div>
 	</div>
 </template>
@@ -21,8 +22,8 @@ export default {
 			fetch('http://localhost:3000/api/bookings/' + id, {
 				method: 'DELETE'
 			}).then(() => eventBus.$emit('booking-deleted', id))
-		}
-	}
+		},
+    }
 }
 
 </script>
