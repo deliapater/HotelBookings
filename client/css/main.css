@@ -1,0 +1,7 @@
+body {
+  background-image: url('../src/assets/background.jpg');
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}

@@ -49,14 +49,19 @@ methods: {
 <style>
 
 body {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Futura', sans-serif;
   width: 80%;
   margin: 0 auto;
-  /* color: #0E0B16; */
+  color: #0E0B16;
+  margin-top: 20px
 }
 
-h1, h2, h3 {
-  /* color: #A239CA; */
-  /* font-family: 'Skranji', cursive; */
+h1, h2 {
+  color: #42f4d7;
+  font-family: 'Futura', sans-serif;
+}
+
+h3 {
+
 }
 </style>

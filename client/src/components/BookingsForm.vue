@@ -6,12 +6,12 @@
 			<input v-model="newBooking.name" type="text" id="name" required />
 		</div>
 		<div class="formWrap">
-			<label for="email">Email Adress:</label>
+			<label for="email">Email Address:</label>
 			<input v-model="newBooking.email" type="text" id="email" required />
 		</div>
 		<div class="formWrap">
 			<label for="checked">Checked in:</label><br>
-      <input v-on:click="newBooking.check" type="checkbox" name="yes" value=true > 
+      <input v-on:click="newBooking.check" type="checkbox" name="yes" value=true >
 		</div>
 
 		<input type="submit" value="Save" id="save"/>
@@ -44,3 +44,38 @@ export default {
 	}
 }
 </script>
+
+<style lang="css" scoped>
+
+  h2 {
+		margin: 10px 0;
+		padding: 0;
+	}
+	#bookings-form {
+		width: 50%;
+		margin: 0 auto;
+		padding: 20px;
+		margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+	}
+
+	label {
+		min-width: 100px;
+		display: inline-block;
+	}
+	.formWrap {
+		margin-bottom: 10px;
+	}
+
+  #save {
+  	color: #fff;
+  	border-radius: 5%;
+  	font-size: 16px;
+  	padding: 5px;
+  	margin-top: 10px;
+  	background: #42f4d7;
+  }
+</style>
